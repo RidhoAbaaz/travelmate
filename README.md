@@ -8,16 +8,29 @@
 - C318B4KY3819 – Ridho Abdul Aziz
 - A318B4KY1120 – Dicky Saputra
 
-### Roles
-1. Cloud Computing
-   - [Abdul Aziz](https://www.linkedin.com/in/abdul-aziz-5ab0a920a/)
-   - [Ridho Abdul Aziz](https://www.linkedin.com/in/ridho-abdul-aziz-509b43303/)
-2. Machine Learning
-   - [Muhamad Wahyu Ramdan](https://www.linkedin.com/in/wahyuramdan04)
-   - Siti Munawaroh
-3. Mobile Development
-   - Dicky Saputra
-
-# Project overview
+# Aplication Overview
 ## Background 
-Traveling often poses challenges, especially in planning and managing travel routes. Travel support applications currently circulating in the community still do not provide an adequate level of personalization, making it difficult for users to get recommendations that are flexible and to their liking. This results in recommendations that are often irrelevant to the desired travel destination. TravelMate is here to answer this need with various features that offer travel planning solutions that can answer the above problems.
+In the advancing digital era, tourism has become one of the most rapidly growing sectors, capturing the attention of people worldwide. However, many travelers often face challenges in finding recommendations for tourist destinations that match their preferences, especially in a country as rich in destinations as Indonesia. Information scattered across various platforms is often disorganized and lacks personalization, leaving travelers feeling confused or dissatisfied with the available options.
+To address this issue, Travel Mate was developed as a solution. This application is designed to provide relevant and personalized recommendations for tourist destinations by leveraging cutting-edge technologies such as machine learning and structured databases. Additionally, features like date-based notifications and weather integration aim to enhance the user experience.
+The main goal of Travel Mate is to help travelers plan their trips more easily, effectively, and enjoyably. By integrating accurate information and intelligent features, this application aspires to become a reliable companion for every traveler
+
+## Learning Path
+- [Cloud Computing](https://github.com/RidhoAbaaz/travelmate/tree/0df8a23009b9f73a3f8001bcb1cb023b6addeaac/Cloud%20Computing)
+- [Machine Learning](https://github.com/RidhoAbaaz/travelmate/tree/0df8a23009b9f73a3f8001bcb1cb023b6addeaac/Machine%20Learning)
+- [Mobile Development]()
+  
+## Application feature
+- Tourist Recommendations: Provide recommendations for tourist destinations based on user preferences.
+- Weather Integration: Offer weather information at tourist locations.
+- Date Notifications: Remind users about travel schedules or related events.
+  
+## Requirement
+- Android Studio (Android SDK)
+- Android Device or Android Emulator
+- Emulator / External Device
+- USB Cable (connect application to mobile device)
+
+## UI/UX Application
+
+
+## Installation

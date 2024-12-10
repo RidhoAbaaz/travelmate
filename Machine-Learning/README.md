@@ -7,15 +7,15 @@ Original dataset from https://www.kaggle.com/datasets/aprabowo/indonesia-tourism
 ![{96AB36D1-0204-4AFA-B074-0DC01E9003C2}](https://github.com/user-attachments/assets/76b52173-5cc2-413d-9a07-614fac9385f4)
 
 # Requirements:
-Google Colaboratory or Jupyter Notebook
-Python 3.7 or above
-Tensorflow Latest Version
+1. Google Colaboratory or Jupyter Notebook,
+2. Python 3.7 or above,
+3. Tensorflow Latest Version
 
 
 # Steps:
-Import library needed
-Exploratory Data Analysis
-Preprocessing
-Data Modeling
-Evaluation Model
-Save best model
+1. Import library needed
+2. Exploratory Data Analysis
+3. Preprocessing
+4. Data Modeling
+5. Evaluation Model
+6. Save best model

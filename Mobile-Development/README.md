@@ -1,5 +1,3 @@
-# Write README.md file
-readme_content = """
 # Travelmate  
 
 **Travelmate** is a travel recommendation app designed to simplify and personalize travel planning for users. With a focus on delivering curated travel suggestions, the app offers a range of features that enhance the overall travel experience.  

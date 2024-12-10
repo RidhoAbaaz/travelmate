@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.travelmate.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_search"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/detailFragment">
+            <argument
+                android:name="placeId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.travelmate.ui.detail.DetailFragment"
+        android:label="detail"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detail_to_home"
+            app:destination="@id/navigation_home" />
+        <argument
+            android:name="placeId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.travelmate.ui.favorite.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_favorite_to_detail"
+            app:destination="@id/detailFragment">
+            <argument
+                android:name="placeId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+        <fragment
+            android:id="@+id/searchFragment"
+            android:name="com.example.travelmate.ui.search.SearchFragment"
+            android:label="Search"
+            tools:layout="@layout/fragment_search">
+            <action
+                android:id="@+id/action_search_to_home"
+                app:destination="@+id/navigation_home"/>
+            <action
+                android:id="@+id/action_search_to_result"
+                app:destination="@id/resultFragment">
+                <argument
+                    android:name="city"
+                    app:argType="string" />
+                <argument
+                    android:name="price"
+                    app:argType="integer" />
+                <argument
+                    android:name="rating"
+                    app:argType="float" />
+                <argument
+                    android:name="category"
+                    app:argType="string" />
+            </action>
+        </fragment>
+
+        <fragment
+            android:id="@+id/resultFragment"
+            android:name="com.example.travelmate.ui.result.ResultFragment"
+            android:label="Result Fragment"
+            tools:layout="@layout/fragment_result">
+            <argument
+                android:name="city"
+                app:argType="string" />
+            <argument
+                android:name="price"
+                app:argType="integer" />
+            <argument
+                android:name="rating"
+                app:argType="float" />
+            <argument
+                android:name="category"
+                app:argType="string" />
+            <action
+                android:id="@+id/action_result_to_detail"
+                app:destination="@id/detailFragment">
+            <argument
+                android:name="placeId"
+                app:argType="integer" />
+            </action>
+        </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.travelmate.ui.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_search_to_result"
+            app:destination="@id/resultFragment">
+            <argument
+                android:name="city"
+                app:argType="string" />
+            <argument
+                android:name="price"
+                app:argType="integer" />
+            <argument
+                android:name="rating"
+                app:argType="float" />
+            <argument
+                android:name="category"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.example.travelmate.ui.progress.ProgressFragment"
+        android:label="Progress"
+        tools:layout="@layout/fragment_progress">
+    </fragment>
+
+    <fragment
+        android:id="@+id/HistoryFragment"
+        android:name="com.example.travelmate.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_history_to_detail"
+            app:destination="@id/detailFragment">
+            <argument
+                android:name="historyId"
+                app:argType="string"/>
+        </action>
+        <action
+            android:id="@+id/action_history_to_profile"
+            app:destination="@+id/navigation_notifications">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.travelmate.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications">
+        <action
+            android:id="@+id/action_profile_to_history"
+            app:destination="@id/HistoryFragment"/>
+        <action
+            android:id="@+id/action_profile_to_favorite"
+            app:destination="@+id/navigation_favorite"/>
+    </fragment>
+</navigation>

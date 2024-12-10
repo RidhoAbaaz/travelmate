@@ -1,3 +1,4 @@
+![banner](Mockup/banner.png)
 # Profile
 ## Team ID : C242-PS513
 ### Members
@@ -31,7 +32,21 @@ The main goal of Travel Mate is to help travelers plan their trips more easily, 
 - USB Cable (connect application to mobile device)
 
 ## UI/UX Application
-
+<div>
+    <img src="Mockup/splash.png" alt="">
+    <img src="Mockup/login.png" alt="">
+    <img src="Mockup/signup.png" alt="">
+    <img src="Mockup/home.png" alt="">
+</div>
+<div>
+    <img src="Mockup/search.png" alt="">
+    <img src="Mockup/progress.png" alt="">
+      <img src="Mockup/detail.png" alt="">
+    <img src="Mockup/history.png" alt="">
+</div>
+<div>
+    <img src="Mockup/profile.png" alt="">
+</div>
 
 ## Installation
 ### Install from repository

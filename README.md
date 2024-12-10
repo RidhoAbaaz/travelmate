@@ -2,12 +2,12 @@
 # Profile
 ## Team ID : C242-PS513
 ### Members
-- M744B4KY2667 – Muhamad Wahyu Ramdan
-- M744B4KX4172 – Siti Munawaroh
-- M728B4KY4559 – Yudhi Septian
-- C318B4KY0018 – Abdul Aziz
-- C318B4KY3819 – Ridho Abdul Aziz
-- A318B4KY1120 – Dicky Saputra
+- M744B4KY2667 – [Muhamad Wahyu Ramdan](https://www.linkedin.com/in/wahyuramdan04)
+- M744B4KX4172 – [Siti Munawaroh](http://www.linkedin.com/in/sitimunawaroh86)
+- M728B4KY4559 – [Yudhi Septian](https://www.linkedin.com/in/yudhi-septian-9608501b6)
+- C318B4KY0018 – [Abdul Aziz](https://www.linkedin.com/in/abdul-aziz-5ab0a920a/)
+- C318B4KY3819 – [Ridho Abdul Aziz](https://www.linkedin.com/in/ridho-abdul-aziz-509b43303/)
+- A318B4KY1120 – [Dicky Saputra]()
 
 # Aplication Overview
 ## Background 
@@ -36,15 +36,15 @@ The main goal of Travel Mate is to help travelers plan their trips more easily, 
     <img src="Mockup/splash.png" alt="">
     <img src="Mockup/login.png" alt="">
     <img src="Mockup/signup.png" alt="">
-    <img src="Mockup/home.png" alt="">
 </div>
 <div>
+    <img src="Mockup/home.png" alt="">
     <img src="Mockup/search.png" alt="">
     <img src="Mockup/progress.png" alt="">
-      <img src="Mockup/detail.png" alt="">
-    <img src="Mockup/history.png" alt="">
 </div>
 <div>
+    <img src="Mockup/detail.png" alt="">
+    <img src="Mockup/history.png" alt="">
     <img src="Mockup/profile.png" alt="">
 </div>
 

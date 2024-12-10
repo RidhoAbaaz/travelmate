@@ -34,3 +34,22 @@ The main goal of Travel Mate is to help travelers plan their trips more easily, 
 
 
 ## Installation
+### Install from repository
+1. clone this project to your computer
+  ```bash
+  git clone https://github.com/RidhoAbaaz/travelmate.git
+ ```
+
+or clone in Android Studio  
+File > New > Project From Version Control
+
+2. Open Android Studio and select Mobile Development Folder
+3. Run Project in Adroid Studio  
+   Wait for Gradle Build to Finish and finally press the Run > Run ‘app’. Now the app has been installed in your phone / emulator. Make sure that you have configured your android device or emulator
+
+### Install from APK file
+1. dowload APK from 
+2. install in your phone
+
+# Thank You
+

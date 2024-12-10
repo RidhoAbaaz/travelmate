@@ -25,9 +25,9 @@
 
 ## Install dependencies
 1. node.js App
-   - enter back-end folder
+   - enter authorization folder
    ```bash
-   cd back-end
+   cd authorization
    ```
    - install all dependencies
    ```bash

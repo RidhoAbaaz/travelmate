@@ -1,4 +1,5 @@
 # CLoud Computing Path
+Create several API endpoints used as a bridge between the front-end and server, integrate the machine learning model with the back-end, the CC team also deploys the application on Cloud Run, and finally set up Firestore and Cloud Storage as the database and set up the Google Cloud environment
 ## Member
 - C318B4KY0018 – [Abdul Aziz](https://www.linkedin.com/in/abdul-aziz-5ab0a920a/)
 - C318B4KY3819 – [Ridho Abdul Aziz](https://www.linkedin.com/in/ridho-abdul-aziz-509b43303/)

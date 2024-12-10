@@ -1,7 +1,7 @@
 # CLoud Computing Path
 ## Member
-- C318B4KY0018 – Abdul Aziz
-- C318B4KY3819 – Ridho Abdul Aziz
+- C318B4KY0018 – [Abdul Aziz](https://www.linkedin.com/in/abdul-aziz-5ab0a920a/)
+- C318B4KY3819 – [Ridho Abdul Aziz](https://www.linkedin.com/in/ridho-abdul-aziz-509b43303/)
 
 ## Requirement
 - node.js

@@ -38,7 +38,6 @@
 - **Dynamic Recommendations**: Combines user preferences with API responses to suggest the top destinations.  
 - **Favorites Feature**: A streamlined system to bookmark and manage favorite destinations with real-time updates.  
 - **Error Handling**: Robust error and exception handling for a smoother user experience.  
-- **Dark Mode Support**: Ensures optimal usability across light and dark themes.  
 - **Scalability**: Designed with clean architecture principles to support future feature additions.  
 
 ---

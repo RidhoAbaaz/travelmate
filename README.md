@@ -7,7 +7,7 @@
 - M728B4KY4559 – [Yudhi Septian](https://www.linkedin.com/in/yudhi-septian-9608501b6)
 - C318B4KY0018 – [Abdul Aziz](https://www.linkedin.com/in/abdul-aziz-5ab0a920a/)
 - C318B4KY3819 – [Ridho Abdul Aziz](https://www.linkedin.com/in/ridho-abdul-aziz-509b43303/)
-- A318B4KY1120 – [Dicky Saputra]()
+- A318B4KY1120 – [Dicky Saputra](https://www.linkedin.com/in/dickysaputraa/)
 
 # Aplication Overview
 ## Background 
